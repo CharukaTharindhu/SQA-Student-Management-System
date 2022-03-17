@@ -37,12 +37,12 @@ class TestAssignmentDetails {
 		String name;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Assignment Name :");
+		System.out.print("give Assignment Name :");
 		name = input.nextLine();
 		
 		String Actual = create_assignment.AssignmentName(name);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Assignment Name");
+		System.out.println(Actual);
+		String expected = ("Yes, it is valid Assignment Name");
 		
 		assertEquals(expected, Actual);
 	}
@@ -53,12 +53,12 @@ class TestAssignmentDetails {
 		String id;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Assignment ID :");
+		System.out.print("give Assignment ID :");
 		id = input.nextLine();
 		
 		String Actual = create_assignment.AssignmentID(id);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Assignment ID");
+		System.out.println(Actual);
+		String expected = ("Yes, it is valid Assignment ID");
 		
 		assertEquals(expected, Actual);
 	}
@@ -69,12 +69,12 @@ class TestAssignmentDetails {
 		String date;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Assignment Start Date :");
+		System.out.print("give Assignment Start Date :");
 		date = input.nextLine();
 		
 		String Actual = create_assignment.AssignmentStartDate(date);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Assignment Start Date");
+		System.out.println(Actual);
+		String expected = ("Yes, it is valid Assignment Start Date");
 		
 		assertEquals(expected, Actual);
 	}
@@ -85,12 +85,12 @@ class TestAssignmentDetails {
 		String date;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Assignment End Date :");
+		System.out.print("give Assignment End Date :");
 		date = input.nextLine();
 		
 		String Actual = create_assignment.AssignmentEndDate(date);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Assignment End Date");
+		System.out.println(Actual);
+		String expected = ("Yes, it is valid Assignment End Date");
 		
 		assertEquals(expected, Actual);
 	}
@@ -101,14 +101,32 @@ class TestAssignmentDetails {
 		String Mname;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Assignment Module Name :");
+		System.out.print("give Assignment Module Name :");
 		Mname = input.nextLine();
 		
 		String Actual = create_assignment.AssignmentModuleName(Mname);
 		
 		
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Assignment Module Name");
+		System.out.println(Actual);
+		String expected = ("Yes, it is valid Assignment Module Name");
+		
+		assertEquals(expected, Actual);
+	}
+	
+	@Test
+	void testAssignmentModuleCode() {
+		CreateAssignment create_assignment=new CreateAssignment();
+		String mCode;
+	
+		Scanner input = new Scanner(System.in);
+		System.out.print("give Assignment Module Code :");
+		mCode = input.nextLine();
+		
+		String Actual = create_assignment.AssignmentModuleCode(mCode);
+		
+		
+		System.out.println(Actual);
+		String expected = ("Yes, it is valid Assignment Module Code");
 		
 		assertEquals(expected, Actual);
 	}

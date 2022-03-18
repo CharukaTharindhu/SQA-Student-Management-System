@@ -37,12 +37,12 @@ class TestPaymentDetails {
 		String pid;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Payment ID :");
+		System.out.print("Please Enter Payment ID :");
 		pid = input.nextLine();
 		
 		String Actual = make_payment.paymentID(pid);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Payment ID ");
+		System.out.println(Actual + "\n");
+		String expected = ("Yes, it is valid Payment ID");
 		
 		assertEquals(expected, Actual);
 	}
@@ -53,12 +53,12 @@ class TestPaymentDetails {
 		String sid;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Student ID :");
+		System.out.print("Please Enter Student ID :");
 		sid = input.nextLine();
 		
-		String Actual = make_payment.paymentStudentID(sid);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Student ID ");
+		String Actual = make_payment.StudentID(sid);
+		System.out.println(Actual + "\n");
+		String expected = ("Yes, it is valid Student ID");
 		
 		assertEquals(expected, Actual);
 	}
@@ -69,12 +69,12 @@ class TestPaymentDetails {
 		String cid;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Course ID :");
+		System.out.print("Please Enter Course ID :");
 		cid = input.nextLine();
 		
-		String Actual = make_payment.paymentCourseID(cid);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Course ID ");
+		String Actual = make_payment.CourseID(cid);
+		System.out.println(Actual + "\n");
+		String expected = ("Yes, it is valid Course ID");
 		
 		assertEquals(expected, Actual);
 	}
@@ -85,12 +85,12 @@ class TestPaymentDetails {
 		String amount;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Payment Amount :");
+		System.out.print("Please Enter Payment Amount (Rs.) :");
 		amount = input.nextLine();
 		
-		String Actual = make_payment.paymentAmount(amount);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Payment Amount ");
+		String Actual = make_payment.Amount(amount);
+		System.out.println(Actual + "\n");
+		String expected = ("Yes, it is valid Payment Amount ");
 		
 		assertEquals(expected, Actual);
 	}
@@ -101,12 +101,28 @@ class TestPaymentDetails {
 		String date;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Payment Date :");
+		System.out.print("Please Enter Payment Date :");
 		date = input.nextLine();
 		
 		String Actual = make_payment.paymentDate(date);
-		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Payment Date ");
+		System.out.println(Actual + "\n");
+		String expected = ("Yes, it is valid Payment Date ");
+		
+		assertEquals(expected, Actual);
+	}
+	
+	@Test
+	void testBankName() {
+		MakePayment make_payment = new MakePayment();
+		String bName;
+	
+		Scanner input = new Scanner(System.in);
+		System.out.print("Please Enter Bank Name :");
+		bName = input.nextLine();
+		
+		String Actual = make_payment.bankName(bName);
+		System.out.println(Actual + "\n");
+		String expected = ("Yes, it is valid Bank Name ");
 		
 		assertEquals(expected, Actual);
 	}

@@ -37,11 +37,11 @@ class TestTeacherDetails {
 		String name;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Teacher Name :");
+		System.out.print("give Teacher Name :");
 		name = input.nextLine();
 		
 		String Actual = teacher_registration.teacherName(name);
-		System.out.println("actual  is "+ Actual);
+		System.out.println(Actual + "\n");
 		String expected = ("valid Teacher Name");
 		
 		assertEquals(expected, Actual);
@@ -53,11 +53,11 @@ class TestTeacherDetails {
 		String id;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Teacher ID :");
+		System.out.print("give Teacher ID :");
 		id = input.nextLine();
 		
 		String Actual = teacher_registration.teacherID(id);
-		System.out.println("actual  is "+ Actual);
+		System.out.println(Actual + "\n");
 		String expected = ("valid Teacher ID");
 		
 		assertEquals(expected, Actual);
@@ -69,11 +69,11 @@ class TestTeacherDetails {
 		String num;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Teacher Contact Number :");
+		System.out.print("give Teacher Contact Number :");
 		num = input.nextLine();
 		
 		String Actual = teacher_registration.teacherContactnum(num);
-		System.out.println("actual  is "+ Actual);
+		System.out.println(Actual + "\n");
 		String expected = ("valid Teacher Contact Number");
 		
 		assertEquals(expected, Actual);
@@ -85,11 +85,11 @@ class TestTeacherDetails {
 		String address;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Teacher Address :");
+		System.out.print("give Teacher Address :");
 		address = input.nextLine();
 		
 		String Actual = teacher_registration.teacherAdress(address);
-		System.out.println("actual  is "+ Actual);
+		System.out.println(Actual + "\n");
 		String expected = ("valid Teacher Address");
 		
 		assertEquals(expected, Actual);
@@ -101,11 +101,11 @@ class TestTeacherDetails {
 		String gend;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Teacher Gender :");
+		System.out.print("give Teacher Gender :");
 		gend = input.nextLine();
 		
 		String Actual = teacher_registration.teacherGender(gend);
-		System.out.println("actual  is "+ Actual);
+		System.out.println(Actual + "\n");
 		String expected = ("valid Teacher Gender");
 		
 		assertEquals(expected, Actual);

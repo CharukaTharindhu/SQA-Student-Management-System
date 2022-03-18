@@ -4,7 +4,7 @@ public class CreateExam {
 	
 	public static String examCode(String code) {
 		String result;
-		if (code.equals("Ex_008")) {
+		if (code.equals("E001")) {
 			return result ="valid Exam Code";
 		}else if (code.equals("Ex_006")) {
 			return result ="valid Exam Code";
@@ -40,8 +40,8 @@ public class CreateExam {
 	
 	public static String examPassMark(String marks) {
 		String result;
-		if (marks.equals("45%")) {
-			return result ="valid Exam Pass mark";
+		if (marks.equals("45")) {
+			return result ="valid Pass Mark";
 		}
 		else {
 			return result ="invalid Pass mark";

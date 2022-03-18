@@ -4,9 +4,9 @@ public class TeacherRegistration {
 	
 	public static String teacherName(String tName) {
 		String result;
-		if (tName.equals("Chathuni")) {
+		if (tName.equals("Kushnara")) {
 			return result ="valid Teacher Name";
-		}else if (tName.equals("Rasika")) {
+		}else if (tName.equals("Sooriyawansa")) {
 			return result ="valid Teacher Name";
 		}
 		else {
@@ -16,9 +16,9 @@ public class TeacherRegistration {
 	
 	public static String teacherID(String id) {
 		String result;
-		if (id.equals("T_001")) {
+		if (id.equals("T001")) {
 			return result ="valid Teacher ID";
-		}else if (id.equals("T_002")) {
+		}else if (id.equals("T002")) {
 			return result ="valid Teacher ID";
 		}
 		else {
@@ -28,9 +28,9 @@ public class TeacherRegistration {
 	
 	public static String teacherContactnum(String num) {
 		String result;
-		if (num.equals("0750309165")) {
+		if (num.equals("0760915061")) {
 			return result ="valid Teacher Contact Number";
-		}else if (num.equals("0770389175")) {
+		}else if (num.equals("0766364154")) {
 			return result ="valid Teacher Contact Number";
 		}
 		else {
@@ -52,13 +52,13 @@ public class TeacherRegistration {
 	
 	public static String teacherGender(String gend) {
 		String result;
-		if (gend.equals("Male")) {
+		if (gend.equals("Femal")) {
 			return result ="valid Teacher Gender";
-		}else if (gend.equals("Female")) {
+		}else if (gend.equals("Male")) {
 			return result ="valid Teacher Gender";
 		}
 		else {
-			return result ="invalid Teacher Address";
+			return result ="invalid Teacher Gender";
 		}
 	}
 	

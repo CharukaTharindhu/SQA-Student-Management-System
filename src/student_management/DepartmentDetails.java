@@ -4,7 +4,7 @@ public class DepartmentDetails {
 
 	public static String departmentName(String name) {
 		String result;
-		if (name.equals("Software Engineering Department")) {
+		if (name.equals("Information Technology Department")) {
 			return result ="valid Depatment Name";
 			
 		}else if (name.equals("IT Department")) {
@@ -17,10 +17,10 @@ public class DepartmentDetails {
 	
 	public static String departmentId(String id) {
 		String result;
-		if (id.equals("D_009")) {
+		if (id.equals("D_001")) {
 			return result ="valid Depatment ID";
 			
-		}else if (id.equals("D_010")) {
+		}else if (id.equals("D_002")) {
 			return result ="valid Depatment ID";
 		}
 		else {
@@ -31,10 +31,10 @@ public class DepartmentDetails {
 	
 	public static String departmentHead(String hName) {
 		String result;
-		if (hName.equals("Nadun Kodagoda")) {
+		if (hName.equals("Samantha Thelijjagoda")) {
 			return result ="valid Depatment Head Name";
 			
-		}else if (hName.equals("Samantha Rajapaksha")) {
+		}else if (hName.equals("D Hansi")) {
 			return result ="valid Depatment Head Name";
 		}
 		else {
@@ -44,10 +44,10 @@ public class DepartmentDetails {
 	
 	public static String departmentStudentCount(String count) {
 		String result;
-		if (count.equals("100 Students")) {
+		if (count.equals("200 Students")) {
 			return result ="valid Depatment Student Count";
 			
-		}else if (count.equals("200 Students")) {
+		}else if (count.equals("250 Students")) {
 			return result ="valid Depatment Student Count";
 		}
 		else {
@@ -57,10 +57,10 @@ public class DepartmentDetails {
 	
 	public static String departmentTeacherCount(String count) {
 		String result;
-		if (count.equals("20 Teachers")) {
+		if (count.equals("15 Teachers")) {
 			return result ="valid Depatment Teachers Count";
 			
-		}else if (count.equals("25 Teachers")) {
+		}else if (count.equals("20 Teachers")) {
 			return result ="valid Depatment Teachers Count";
 		}
 		else {

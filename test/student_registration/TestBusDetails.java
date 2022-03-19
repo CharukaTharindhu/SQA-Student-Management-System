@@ -37,12 +37,12 @@ class TestBusDetails {
 		String route;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Bus Route :");
+		System.out.println("Give Bus Route Name:");
 		route = input.nextLine();
 		
 		String Actual = student_bus_service.busRoute(route);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Bus Route");
+		String expected = ("valid Student Bus Route Name");
 		
 		assertEquals(expected, Actual);
 	}
@@ -53,12 +53,12 @@ class TestBusDetails {
 		String rNum;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Bus Route Number:");
+		System.out.println("Give Bus Route Number:");
 		rNum = input.nextLine();
 		
 		String Actual = student_bus_service.busRouteNum(rNum);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Bus Route Number");
+		String expected = ("valid Student Bus Route Number");
 		
 		assertEquals(expected, Actual);
 	}
@@ -69,12 +69,12 @@ class TestBusDetails {
 		String sCount;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Bus Seat Count:");
+		System.out.println("Give Bus Seat Count:");
 		sCount = input.nextLine();
 		
 		String Actual = student_bus_service.busRouteSeatCount(sCount);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Bus Seat Count");
+		String expected = ("valid Student Bus Route Seat Count");
 		
 		assertEquals(expected, Actual);
 	}
@@ -85,12 +85,12 @@ class TestBusDetails {
 		String price;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Bus Ticket Price:");
+		System.out.println("Give Bus Ticket Price:");
 		price = input.nextLine();
 		
 		String Actual = student_bus_service.busRouteTicketPrice(price);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Bus Ticket Price");
+		String expected = ("valid Student Bus Route Ticket Price");
 		
 		assertEquals(expected, Actual);
 	}
@@ -101,12 +101,12 @@ class TestBusDetails {
 		String time;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Bus Start Time:");
+		System.out.println("Give Bus Start Time:");
 		time = input.nextLine();
 		
 		String Actual = student_bus_service.busStartTime(time);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Bus Start Time");
+		String expected = ("valid Student Bus Route Start Time");
 		
 		assertEquals(expected, Actual);
 	}

@@ -4,9 +4,9 @@ public class StudentBusService {
 
 	public static String busRoute(String rName) {
 		String result;
-		if (rName.equals("Malabe - Kollupitiya")) {
+		if (rName.equals("Malabe to Ja-Ela")) {
 			return result ="valid Student Bus Route Name";
-		}else if (rName.equals("Malabe - Ja-Ela")) {
+		}else if (rName.equals("Malabe to Kollupitiya")) {
 			return result ="valid Student Bus Route Name";
 		}
 		else {
@@ -17,9 +17,9 @@ public class StudentBusService {
 	
 	public static String busRouteNum(String rNum) {
 		String result;
-		if (rNum.equals("NL - 5267")) {
+		if (rNum.equals("NG - 7788")) {
 			return result ="valid Student Bus Route Number";
-		}else if (rNum.equals("NP - 3445 ")) {
+		}else if (rNum.equals("NL - 1122 ")) {
 			return result ="valid Student Bus Route Number";
 		}
 		else {
@@ -29,9 +29,9 @@ public class StudentBusService {
 	
 	public static String busRouteSeatCount(String sCount) {
 		String result;
-		if (sCount.equals("54 seats")) {
+		if (sCount.equals("52 seats")) {
 			return result ="valid Student Bus Route Seat Count";
-		}else if (sCount.equals("40 seats")) {
+		}else if (sCount.equals("30 seats")) {
 			return result ="valid Student Bus Route Seat Count";
 		}
 		else {
@@ -41,9 +41,9 @@ public class StudentBusService {
 	
 	public static String busRouteTicketPrice(String price) {
 		String result;
-		if (price.equals("Rs. 20.00")) {
+		if (price.equals("Rs. 50.00")) {
 			return result ="valid Student Bus Route Ticket Price";
-		}else if (price.equals("Rs. 40.00")) {
+		}else if (price.equals("Rs. 55.00")) {
 			return result ="valid Student Bus Route Ticket Price";
 		}
 		else {
@@ -53,9 +53,9 @@ public class StudentBusService {
 	
 	public static String busStartTime(String time) {
 		String result;
-		if (time.equals(" 08.00 A.M")) {
+		if (time.equals("07.00 A.M")) {
 			return result ="valid Student Bus Route Start Time";
-		}else if (time.equals("05.00 P.M")) {
+		}else if (time.equals("05.30 P.M")) {
 			return result ="valid Student Bus Route Start Time";
 		}
 		else {

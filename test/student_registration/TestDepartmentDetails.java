@@ -37,12 +37,12 @@ class TestDepartmentDetails {
 		String name;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Department Name :");
+		System.out.println("Give Department Name :");
 		name = input.nextLine();
 		
 		String Actual = department_details.departmentName(name);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Department Name");
+		String expected = ("valid Depatment Name");
 		
 		assertEquals(expected, Actual);
 	}
@@ -53,12 +53,12 @@ class TestDepartmentDetails {
 		String id;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Department ID :");
+		System.out.println("Give Department ID :");
 		id = input.nextLine();
 		
 		String Actual = department_details.departmentId(id);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Department ID");
+		String expected = ("valid Depatment ID");
 		
 		assertEquals(expected, Actual);
 	}
@@ -69,12 +69,12 @@ class TestDepartmentDetails {
 		String hName;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Department Head Name :");
+		System.out.println("Give Department Head Name :");
 		hName = input.nextLine();
 		
 		String Actual = department_details.departmentHead(hName);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Department ID");
+		String expected = ("valid Depatment Head Name");
 		
 		assertEquals(expected, Actual);
 	}
@@ -85,12 +85,12 @@ class TestDepartmentDetails {
 		String scount;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Department Student Count :");
+		System.out.println("Give Department Student Count :");
 		scount = input.nextLine();
 		
 		String Actual = department_details.departmentStudentCount(scount);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Department Student Count");
+		String expected = ("valid Depatment Student Count");
 		
 		assertEquals(expected, Actual);
 	}
@@ -101,12 +101,12 @@ class TestDepartmentDetails {
 		String tcount;
 	
 		Scanner input = new Scanner(System.in);
-		System.out.println("give Department Teachers Count :");
+		System.out.println("Give Department Teachers Count :");
 		tcount = input.nextLine();
 		
 		String Actual = department_details.departmentTeacherCount(tcount);
 		System.out.println("actual  is "+ Actual);
-		String expected = ("valid Department Teachers Count");
+		String expected = ("valid Depatment Teachers Count");
 		
 		assertEquals(expected, Actual);
 	}
